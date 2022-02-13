@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elibeth</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript">
+		var nombre = prompt("Introduzca su nombre:")
+	</script>
+</head>
+<body>
+	<noscript>
+ 	<p>Bienvenido a Elibeth Beauty</p>
+ 	<p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript. Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo.</p>
+ 	</noscript>
+	<header>
+		<div id="logo">
+			<a href="#"><p>Elibeth <span>Beauty</span></p></a>
+		</div>
+		<nav id="botonera">
+			<ul id="int_boton">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="log_in.html">Log in</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="inicio">
+		<div id="botonera_2">
+			<ul id="int_boton2">
+				<li id="buscador">Buscador:</li>
+				<li>
+					<form method="POST" action="#">
+						<input type="search" name="buscador" size="50">
+					</form>
+				</li>
+			</ul>
+		</div>
+		<div id="banner">
+			<video src="video.mp4" controls class="ajuste" poster="poster.jpg"></video>
+		</div>
+		<div id="img_banner">
+			<h1>¡Bienvenido/a <script type="text/javascript"> document.write(nombre)</script>!</h1>
+			<p>Elibeth te brinda un servicio donde tu belleza es nuestro deber.</p>
+			<img src="mariposa.png">
+		</div>
+		<div id="caja_media">
+			<h3>Elibeth Beauty</h3>
+		</div>
+		<div id="lifting">
+			<a href="lifting.html"><img src="lifting.jpg"></a>
+			<a href="lifting.html"><div id="texto_lifting">Lifting y Permanente de pestañas</div></a>
+		</div>
+		<div id="cutis">
+			<a href="cutis.html"><img src="cutis.jpg"></a>
+			<a href="cutis.html"><div id="texto_cutis">Limpieza de Cutis</div></a>
+		</div>
+		<div id="productos">
+			<a href="productos.html"><img src="productos.jpg"></a>
+			<a href="productos.html"><div id="texto_productos">Productos de belleza</div></a>
+		</div>
+		<div id="tratamientos">
+			<a href="tratamientos.html"><img src="tratamientos.jpg"></a>
+			<a href="tratamientos.html"><div id="texto_tratamientos">Tratamientos capilares</div></a>
+		</div>
+	</section>
+	<footer>
+		<div id="logo_footer">
+			<img src="elibeth.jpg" alt="elibeth">
+		</div>
+		<nav id="info_footer">
+			<form method="POST" action="#">
+				<span id="consulta">Consulta:</span>
+				<span id="text"><textarea name="consulta" rows="6"></textarea></span>
+				<span id="enviar"><input type="submit"></span>
+			</form>			
+		</nav>
+		<nav id="redes">
+			<ul id="int_redes">
+				<li><a href="#"><img class="logos" src="logo_ig.jpg" alt="instagram"></a></li>
+				<li><a href="#"><img class="logos" src="logo_wsp.png" alt="whatsapp"></a></li>
+				<li><a href="#"><img class="logos" src="logo_fb.png" alt="facebook"></a></li>
+				<li><a href="#"><img class="gmail" src="logo_gmail.png" alt="gmail"></a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

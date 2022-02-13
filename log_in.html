@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log in</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<noscript>
+ 	<p>Bienvenido a Elibeth Beauty</p>
+ 	<p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript. Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo.</p>
+ 	</noscript>
+	<header>
+		<div id="logo">
+			<a href="#"><p>Elibeth <span>Beauty</span></p></a>
+		</div>
+		<nav id="botonera">
+			<ul id="int_boton">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="log_ing.html">Log in</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="seccion_login">
+		<div id="formulario_login">
+			<h2>Iniciar Sesion</h2>
+            <form  method="POST" action="#">
+                <table>                    
+                    <tr>
+                        <td>Mail:</td>               
+                        <td><input type="email" name="correo" required></td>
+                    </tr>
+                    <tr>
+    	                <td>Contraseña:</td>
+                        <td><input type="password" name="contraseña"  required></td>
+   	                </tr>                
+                </table>
+                <input class="send" type="submit">
+            </form>
+		</div>
+		<div id="formulario_registrarse">
+            <h2>Registrarse</h2>
+            <form  method="POST" action="#">
+                <table>
+                    <tr>
+                        <td>Nombre:</td>
+                        <td><input type="text" id="nombre" name="nombre" required></td>
+                     </tr>
+                     <tr>
+                        <td>Apellido:</td>
+                        <td><input type="text" id="apellido" name="apellido" required></td>
+                    </tr>
+                    <tr>
+                        <td>Mail:</td>
+                        <td><input type="email" name="correo" required></td>
+                    </tr>
+                    <tr>
+                        <td>Edad:</td>
+                        <td><input type="number" name="edad" min="12" max="100" required></td>
+                    </tr>
+                    <tr>
+    	                <td>Contraseña:</td>
+                        <td><input type="password" name="contraseña"  required></td>
+   	                </tr>                
+                </table>
+                <input class="send" type="submit">
+            </form>
+        </div>
+	</section>
+	<footer>
+		<div id="logo_footer">
+			<img src="elibeth.jpg" alt="elibeth">
+		</div>
+		<nav id="info_footer">
+			<form method="POST" action="#">
+				<span id="consulta">Consulta:</span>
+				<span id="text"><textarea name="consulta" rows="6"></textarea></span>
+				<span id="enviar"><input type="submit"></span>
+			</form>			
+		</nav>
+		<nav id="redes">
+			<ul id="int_redes">
+				<li><a href="#"><img class="logos" src="logo_ig.jpg" alt="instagram"></a></li>
+				<li><a href="#"><img class="logos" src="logo_wsp.png" alt="whatsapp"></a></li>
+				<li><a href="#"><img class="logos" src="logo_fb.png" alt="facebook"></a></li>
+				<li><a href="#"><img class="gmail" src="logo_gmail.png" alt="gmail"></a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

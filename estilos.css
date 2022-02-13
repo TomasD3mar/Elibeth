@@ -1,0 +1,1029 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+body {
+	font-family: 'Croissant One', cursive;
+	background-image: url(flores.jpg);
+	background-size: cover;
+}
+header, section, footer {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	height: 60px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+#logo {
+	width: 200px;
+	height: 60px;
+	float: left;
+	margin:0 auto;
+}
+#logo a {
+	text-decoration: none;
+}
+#logo p {
+	font-style: italic;
+	margin-top: 10px;
+	font-size: 25px;
+	text-align: center;
+	color: #000000
+}
+#logo p span {
+	color: #fc8afc;
+}
+
+
+
+
+
+
+
+
+#botonera {
+	float: right;
+	width: 400px;
+	height: 60px;
+}
+#int_boton {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#int_boton li {
+	display: inline;
+}
+#int_boton li a {
+	display: inline-block;
+	background-color: #F6CEF5;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	width: 120.93px;
+	height: 50px;
+	color: #100719;
+	border: double 5px #100719;
+	border-radius: 7px;
+}
+#int_boton li a:hover {
+	background-color: #100719;
+	color: #F6CEF5;
+	border: double 5px #F6CEF5;
+}
+
+
+
+
+
+
+
+
+section#inicio {
+	height: 1329px;
+}
+
+
+
+
+
+
+
+
+
+
+#botonera_2 {
+	height: 50px;
+	width: 960px;
+}
+#buscador {
+	float: left;
+	padding-left: 150px;
+}
+#int_boton2 li {
+	display: inline;
+}
+#int_boton2 li form {
+	display: inline-block;
+	transform: scale(1.1);
+	padding-left: 30px;
+}
+
+
+
+
+
+
+#banner {
+	float: right;
+	width: 480px;
+	height: 460px;
+}
+.ajuste {
+	width: 480px;
+	height: 450px;
+}
+#img_banner {
+	width: 460px;
+	height: 440px;
+	background-color: #FFCBD3;
+	border: double 5px #100719;
+	border-radius: 20px;
+}
+#img_banner h1 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#img_banner p {
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+}
+#img_banner img {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	left: 110px;
+}
+
+
+
+
+
+
+
+#caja_media {
+	width: 500px;
+	height: 38px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+#caja_media h3 {
+	font-style: italic;
+	text-decoration-line: underline overline;  
+	margin-left: 100px;
+	text-shadow:160px 0px 1px #fc8afc;
+}
+
+
+
+
+
+
+
+
+
+#lifting{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 480px;
+	height: 380px;
+	transition: transform .7s;
+}
+#lifting:hover {
+	transform: scale(1.12);
+	z-index: 1;
+}
+#lifting a img {
+	width: 480px;
+	height: 380px;
+	border-radius: 50px;
+	margin-right: 2px;
+}
+#texto_lifting {
+	color: #F781F3;
+	text-shadow:1px 1px 1px #000000;
+	font-size: 20px;
+	position: absolute;
+	top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#cutis {
+	position: relative;
+	float: left;
+	width: 480px;
+	height: 380px;
+	display: inline-block;
+	text-align: center;
+	transition: transform .7s;
+}
+#cutis a img {
+	width: 480px;
+	height: 380px;
+	border-radius: 50px;
+	margin-left: 2px;
+}
+#cutis:hover {
+	transform: scale(1.12);
+	z-index: 1;
+	}
+#texto_cutis {
+	color: #F781F3;
+	text-shadow:1px 1px 1px #000000;
+	font-size: 20px;
+	position: absolute;
+	top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#productos {
+	float: left;
+	width: 480px;
+	height: 380px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	transition: transform .7s;
+}
+#productos a img {
+	width: 480px;
+	height: 380px;
+	border-radius: 50px;
+	margin-right: 2px;
+}
+#productos:hover {
+	transform: scale(1.12);
+	z-index: 1;	
+	}
+#texto_productos {
+	color: #F781F3;
+	text-shadow:1px 1px 1px #000000;
+	font-size: 20px;
+	position: absolute;
+	top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#tratamientos {
+	float: left;
+	width: 480px;
+	height: 380px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	transition: transform .7s;
+}
+#tratamientos a img {
+	width: 480px;
+	height: 380px;
+	border-radius: 50px;
+	margin-left: 2px;
+}
+#tratamientos:hover {
+	transform: scale(1.12);
+	z-index: 1;	
+	}
+#texto_tratamientos {
+	color: #F781F3;
+	text-shadow:1px 1px 1px #000000;
+	font-size: 20px;
+	position: absolute;
+	top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+footer {
+	height: 200px;
+	background-color: #000000;
+}
+
+
+
+
+
+
+
+#logo_footer{
+	float: left;
+	height: 165px;
+	width: 165px;
+	margin-left: 17.5px;
+	margin-top: 17.5px;
+}
+#logo_footer img {
+	width: 165px;
+	height: 165px;
+	-moz-border-radius: 20px;
+ 	-webkit-border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+#redes {
+	float: right;
+	height: 50px;
+	width: 400px;
+	margin-top: 17.5px;
+	margin-right: 17.5px;
+}
+#int_redes {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#int_redes li {
+	display: inline;
+}
+
+#int_redes li a {
+	display: inline-block;
+}
+.logos {
+	width: 40px;
+	height: 40px;
+	margin-left: 45px;
+	margin-top: 5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+.gmail {
+	width: 40px;
+	height: 30px;
+	margin-left: 45px;
+	margin-bottom: 5px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+}
+
+
+
+
+
+
+
+#info_footer {
+	float: right;
+	height: 97.5px;
+	width: 360px;
+	margin-top: 17.5px;
+	margin-right: 17.5px;
+}
+#consulta {
+	float: left;
+	color: #FFFFFF;
+}
+#text {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#enviar {
+	float: left;
+	position: relative;
+	top: 35px;
+}
+
+
+
+/*SECCION LIFTING Y PERMANENTE DE PESTAÑAS*/
+
+section#seccion_lifting {
+	height: 640px;
+}
+#info h1 {
+	background-color: #F6CEF5;
+	text-align: center;
+	border-radius: 10px;
+	border:dashed 1px #000000;
+}
+#info_texto {
+	background-color: #F6CEF5; 
+	margin-top: 30px;
+	border:dashed 1px #000000;
+	border-radius: 10px;
+}
+#info_texto p {
+	font-size: 17px;
+	font-style: italic;
+	margin-left: 10px;
+}
+#info div img {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-left: 180px;
+	margin-top: 30px;
+	border:double 1px #000000;
+}
+
+
+/*SECCION LIMPIEZA DE CUTIS*/
+
+section#seccion_cutis {
+	height: 660px;
+}
+
+/*SECCION PRODUCTOS DE BELLEZA*/
+
+section#seccion_productos {
+	height: 400px;
+}
+
+/*SECCION TRATAMIENTOS CAPILARES*/
+
+section#seccion_tratamientos {
+	height: 660px;
+}
+
+
+/*SECCION NOSOTROS*/
+
+section#seccion_nosotros {
+	height: 500px;
+}
+
+#btn_nos {
+	width: 960px;
+	height: 60px;
+}
+#btn_nos ul {
+	list-style-type: none;
+	margin-left: 45px;
+}
+#btn_nos ul li {
+	display: inline;
+}
+#btn_nos ul li a {
+	display: inline-block;
+	background-color: #F6CEF5;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	width: 250px;
+	height: 50px;
+	color: #100719;
+	border: groove 3px #100719;
+	border-radius: 7px;
+}
+#btn_nos ul li a:hover {
+	background-color: #100719;
+	color: #F6CEF5;
+	border: groove 3px #F6CEF5;
+}
+
+#quien, #mercaderia, #manejo {
+	width: 960px;
+	height: 300px;
+}
+
+#quien{
+	background-color: #EBDEF0;
+	border-radius: 5px;
+}
+#quien h3 {
+	text-align: center;
+	font-size: 25px;
+}
+#quien p {
+	text-align: center;
+	font-size: 17px;
+}
+
+#mercaderia{
+	background-color: #D6EAF8 ;
+	border-radius: 5px;
+}
+#mercaderia h3 {
+	text-align: center;
+	font-size: 25px;
+}
+#mercaderia p {
+	text-align: center;
+	font-size: 17px;
+}
+
+#manejo{
+	background-color: #F2F3F4 ;
+	border-radius: 5px;
+}
+#manejo h3 {
+	text-align: center;
+	font-size: 25px;
+}
+#manejo p {
+	text-align: center;
+	font-size: 17px;
+}
+
+#oscuro h4 {
+	text-align: center;
+}
+
+
+/*SECCION LOG IN*/
+
+section#seccion_login {
+	height: 350px;
+}
+
+#formulario_login {
+	float: left;
+}
+
+#formulario_login h2 {
+	margin-top: 50px;
+}
+
+#formulario_login form {
+	font-size: 18px;
+}
+
+#formulario_registrarse {
+	float: right;
+}
+
+#formulario_registrarse h2  {
+	margin-top: 50px;
+}
+
+#formulario_registrarse form {
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive Design*/
+
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+
+header, section, footer {
+	width: 580px;
+}
+#botonera {
+	float: right;
+	width: 400px;
+	height: 60px;
+}
+section#inicio {
+	height: 884px;
+}
+#botonera_2 {
+	height: 115px;
+	width: 580px;
+}
+#buscador {
+	margin-top: 10px;
+	margin-left: 70px;
+}
+#int_boton2 li form {
+	transform: scale(1.0);
+	margin-left: 40px;
+}
+#banner {
+	width: 290px;
+	height: 290px;
+}
+.ajuste {
+	width: 290px;
+	height: 300px;
+}
+#img_banner {
+	width: 270px;
+	height: 290px;
+}
+#img_banner h1 {
+	font-size: 30px;
+}
+#img_banner p {
+	font-size: 15px;
+}
+#img_banner img {
+	width: 120px;
+	height: 120px;
+	left: 80px;
+}
+#lifting{
+	width: 290px;
+	height: 200px;
+}
+#lifting a img {
+	width: 290px;
+	height: 200px;
+}
+#texto_lifting {
+	font-size: 16px;
+}
+#cutis {
+	width: 290px;
+	height: 200px;
+}
+#cutis a img {
+	width: 290px;
+	height: 200px;
+}
+#texto_cutis {
+	font-size: 16px;
+}
+#productos {
+	width: 290px;
+	height: 200px;
+}
+#productos a img {
+	width: 290px;
+	height: 200px;
+}
+#texto_productos {
+	font-size: 16px;
+	position: absolute;
+}
+#tratamientos {
+	width: 290px;
+	height: 200px;
+}
+#tratamientos a img {
+	width: 290px;
+	height: 200px;
+}
+#texto_tratamientos {
+	font-size: 16px;
+}
+#redes {
+	height: 50px;
+	width: 350px;
+}
+.logos {
+	width: 35px;
+	height: 35px;
+}
+.gmail {
+	width: 35px;
+	height: 25px;
+}
+/*SECCION LIFTING Y PERMANENTE DE PESTAÑAS*/
+section#seccion_lifting {
+	height: 660px;
+}
+#info h1 {
+	font-size: 20px;
+	margin-top: 80px;
+}
+#info_texto { 
+	margin-top: 20px;
+}
+#info_texto p {
+	text-align: justify;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#info_texto h3 {
+	font-size: 17px;
+}
+#info div img {
+	width: 150px;
+	height: 150px;
+	margin-left: 90px;
+}
+/*SECCION LIMPIEZA DE CUTIS*/
+section#seccion_cutis {
+	height: 680px;
+}
+/*SECCION PRODUCTOS DE BELLEZA*/
+section#seccion_productos {
+	height: 300px;
+}
+/*SECCION TRATAMIENTOS CAPILARES*/
+section#seccion_tratamientos {
+	height: 630px;
+}
+
+/*SECCION NOSOTROS*/
+
+section#seccion_nosotros {
+	height: 800px;
+}
+
+#btn_nos {
+	width: 700px;
+	height: 60px;
+}
+#btn_nos ul {
+	margin-left: 0;
+}
+#btn_nos ul li a {
+	width: 500px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+#quien, #mercaderia, #manejo {
+	width: 580px;
+	height: 400px;
+}
+
+#quien{
+	margin-top: 250px;
+}
+
+
+#mercaderia{
+	margin-top: 250px;
+}
+#manejo{
+	margin-top: 250px;
+}
+
+
+
+/*SECCION LOG IN*/
+
+section#seccion_login {
+	height: 600px;
+}
+
+#formulario_registrarse {
+	float: left;
+
+} /* fin media 600 a 1023px */
+}
+
+
+
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+	width: 90%;
+}
+header {
+	height: auto;
+}
+#logo, #botonera {
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-left: 10px;
+}
+#int_boton li a {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}	
+section#inicio {
+	height: auto;
+}
+#botonera_2 {
+	height: auto;
+	width: 100%;
+}
+#buscador {
+	float: none;
+	position: relative;
+	right: 170px;
+}
+#int_boton2 li form {
+	float: none;
+	transform: scale(1.0);
+	position: relative;
+	right: 54px;
+}
+#banner {
+	float: none;
+	width: 100%;
+	height: 460px;
+}
+.ajuste {
+	width: 100%;
+}
+#img_banner {
+	width: 100%;
+	box-sizing: border-box;
+}
+#img_banner h1 {
+	font-size: 200%;
+}
+#img_banner p {
+	font-size: 120%;
+}
+#img_banner img {
+	width: 45%;
+	height: 50%;
+}
+#caja_media {
+	width: 100%;
+	height: auto;
+}
+#caja_media h3 { 
+	margin-left: 12%;
+}
+#lifting{;
+	float: none;
+	width: 100%;
+	height: 380px;;
+}
+#lifting a img {
+	width: 100%;
+	height: 380px;
+}
+#cutis {
+	float: none;
+	width: 100%;
+	height: 380px;
+}
+#cutis a img {
+	width: 100%;
+	height: 380px;
+}
+#productos {
+	float: none;
+	width: 100%;
+	height: 380px;
+}
+#productos a img {
+	width: 100%;
+	height: 380px;
+}
+#tratamientos {
+	float: none;
+	width: 100%;
+	height: 380px;
+}
+#tratamientos a img {
+	width: 100%;
+	height: 380px;
+}
+footer {
+	height: auto;
+}
+#logo_footer{
+	float: none;
+	height: auto;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo_footer img {
+	width: 100%;
+	height: 150px;
+	margin-top: 6px;
+}
+#redes {
+	float: none;
+	height: auto;
+	width: 100%;
+}
+#int_redes {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#int_redes li a {
+	display: block;
+}
+.logos {
+	width: 10%;
+	height: 10%;
+	margin-left: 45%;
+	margin-right: 45%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+.gmail {
+	width: 10%;
+	height: 7%;
+	margin-left: 45%;
+	margin-right: 45%;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+}
+#info_footer {
+	float: none;
+	width: 100%;
+}
+#consulta {
+	float: none;
+	margin-left: 40px;
+}
+#text {
+	float: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#enviar {
+	float: none;
+	top: -40px;
+}
+/*SECCION LIFTING Y PERMANENTE DE PESTAÑAS*/
+
+section#seccion_lifting {
+	height: auto;
+}
+#info div img {
+	float: none;
+	width: 40%;
+	height: 200px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+/*SECCION LIMPIEZA DE CUTIS*/
+section#seccion_cutis {
+	height: auto;
+}
+/*SECCION PRODUCTOS DE BELLEZA*/
+section#seccion_productos {
+	height: auto;
+}
+/*SECCION TRATAMIENTOS CAPILARES*/
+section#seccion_tratamientos {
+	height: auto;
+}
+
+/*SECCION NOSOTROS*/
+
+section#seccion_nosotros {
+	height: auto;
+}
+
+#btn_nos {
+	width: 100%;
+	height: auto;
+	float: none;
+	margin-left: 10px;
+}
+#btn_nos ul {
+	margin-left: 0;
+}
+#btn_nos ul li a {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+
+#quien, #mercaderia, #manejo {
+	width: 90%;
+	height: auto;
+}
+
+#quien{
+	margin-top: 250px;
+}
+
+
+#mercaderia{
+	margin-top: 250px;
+}
+#manejo{
+	margin-top: 250px;
+}
+
+
+
+/*SECCION LOG IN*/
+
+section#seccion_login {
+	height: auto;
+}
+
+#formulario_login {
+	float: none;
+}
+
+#formulario_registrarse {
+	float: none;
+
+} /* fin media 599px*/
+}
